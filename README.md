@@ -1,6 +1,6 @@
 # Mantle
 
-Public repository: [NOT-REAL-GAMES/Rustscript](https://github.com/NOT-REAL-GAMES/Rustscript).
+Public repository: [NOT-REAL-GAMES/Mantle](https://github.com/NOT-REAL-GAMES/Mantle).
 Mantle is the browser product; Rustscript is its native capability API.
 
 Custom browser research for macOS, iPhone and iPad. **Rustscript** is its proposed
@@ -43,8 +43,8 @@ outside source control.
 Clone the repository and verify the portable prototype first:
 
 ```sh
-git clone https://github.com/NOT-REAL-GAMES/Rustscript.git
-cd Rustscript
+git clone https://github.com/NOT-REAL-GAMES/Mantle.git
+cd Mantle
 node scripts/check.mjs
 ```
 
