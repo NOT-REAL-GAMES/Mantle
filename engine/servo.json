@@ -1,0 +1,7 @@
+{
+  "repository": "https://github.com/servo/servo.git",
+  "revision": "964981f4c6eaa49a1f82700a4fb51afc76c43785",
+  "commitDate": "2026-10-06T08:28:40Z",
+  "checkout": "vendor/servo",
+  "purpose": "Gate A browser-engine evaluation; no native-import engine patch exists yet"
+}

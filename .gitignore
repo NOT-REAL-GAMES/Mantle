@@ -1,0 +1,6 @@
+/target/
+/vendor/
+/artifacts/
+.DS_Store
+*.xcuserstate
+xcuserdata/

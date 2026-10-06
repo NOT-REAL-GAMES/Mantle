@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mantle — engine feasibility</title>
+<style>
+:root{color-scheme:dark;font:16px system-ui;background:#111616;color:#e3eeea}body{max-width:920px;margin:auto;padding:24px}button,a{color:#64d4bb}button{font:inherit;background:#22332e;border:1px solid #64d4bb;border-radius:8px;padding:12px;cursor:pointer}pre{padding:16px;background:#1b2320;overflow:auto;white-space:pre-wrap}canvas{width:240px;height:120px;border:1px solid #64d4bb}label{display:block;margin:16px 0}
+</style>
+<h1>Mantle engine feasibility</h1>
+<p>This page checks browser primitives and calls the Rust WASM guest. It does not certify that imports are native: the engine debugger and counters must establish that separately.</p>
+<p>The fixture contains no JavaScript implementations or forwarding wrappers for Rustscript imports. An ordinary browser should report the bridge as unavailable.</p>
+<button id="run">Run compatibility checks</button>
+<button id="download" disabled>Download local report</button>
+<p><a href="https://not-real.games/wala/" target="_blank" rel="noopener noreferrer">Open WALA for manual compatibility checks</a></p>
+<canvas id="gpu" width="240" height="120" aria-label="WebGPU smoke render"></canvas>
+<pre id="report" role="status" aria-live="polite">Ready.</pre>
+<script type="module" src="/probe.mjs"></script>
+</html>

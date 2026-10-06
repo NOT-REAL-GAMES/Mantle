@@ -1,0 +1,12 @@
+[workspace]
+members = ["crates/rustscript-sdk", "crates/bridge-probe", "crates/rustscript-core", "crates/native-probe"]
+resolver = "3"
+
+[workspace.package]
+edition = "2024"
+rust-version = "1.99"
+license = "MIT"
+
+[profile.release]
+opt-level = 3
+lto = "thin"

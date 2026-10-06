@@ -1,0 +1,16 @@
+{
+  "name": "mantle-feasibility",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:probe": "cargo build --locked --release -p bridge-probe --target wasm32-unknown-unknown",
+    "test": "node scripts/check.mjs",
+    "test:node": "node --test tests/*.test.mjs",
+    "check": "node scripts/check.mjs",
+    "engine:checkout": "node scripts/servo.mjs checkout",
+    "engine:build": "node scripts/servo.mjs build",
+    "engine:run": "node scripts/servo.mjs run",
+    "serve": "node scripts/serve.mjs"
+  }
+}
