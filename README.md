@@ -40,6 +40,9 @@ outside source control.
 
 ## Continue on the MacBook
 
+MacBook Codex should execute [the continuation plan](docs/MACBOOK_PLAN.md), starting
+with the portable baseline, actual Servo/WALA checks and native page-runtime proof.
+
 Clone the repository and verify the portable prototype first:
 
 ```sh
